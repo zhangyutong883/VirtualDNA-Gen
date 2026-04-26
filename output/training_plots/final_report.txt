@@ -1,0 +1,28 @@
+============================================================
+VirtualDNA-Gen Final Project Report
+============================================================
+
+Hyperparameter Configuration:
+Embedding Dimension: 128
+Attention Heads: 8
+Transformer Layers: 4
+Vocabulary Size: 4100
+Max Sequence Length: 200
+Batch Size: 128
+Learning Rate:: 0.01
+Total Epochs: 80
+
+Training Performance:
+ Final Training Accuracy: 96.15%
+Final Validation Accuracy: 69.58%
+
+Generation Metrics:
+Total Sequences Generated: 70
+Generation Accuracy Score: 64.29%
+Biological GC Content Validity: 100.00%
+Average Sequence Length: 195.3 bp
+Average GC Content: 0.531
+
+Architectural Metadata:
+Classifier Total Parameters: 1,583,623
+Generator Total Parameters: 2,112,516

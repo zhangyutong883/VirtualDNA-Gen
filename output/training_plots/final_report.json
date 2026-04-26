@@ -1,0 +1,27 @@
+{
+  "project": "VirtualDNA-Gen",
+  "timestamp": "2026-04-26T12:32:57.594364",
+  "config": {
+    "embed_dim": 128,
+    "num_heads": 8,
+    "num_layers": 4,
+    "vocab_size": 4100,
+    "max_seq_len": 200,
+    "batch_size": 128,
+    "learning_rate": 0.01,
+    "epochs": 80
+  },
+  "results": {
+    "final_train_acc": 96.15048118985126,
+    "final_val_acc": 69.58041958041959,
+    "generation_accuracy": 0.6428571428571429,
+    "gc_valid_ratio": 1.0,
+    "total_generated": 70,
+    "avg_sequence_length": 195.31428571428572,
+    "avg_gc_content": 0.5313495705978565
+  },
+  "model_info": {
+    "classifier_params": 1583623,
+    "generator_params": 2112516
+  }
+}
